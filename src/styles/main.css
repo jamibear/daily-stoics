@@ -1,0 +1,48 @@
+#container {
+    background-color: black;
+}
+
+html, body {
+    background-color: black;
+    color: white;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 600px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1.5px solid #606060;
+    background-color: black;
+    padding: 3px 9px;
+    color: white;
+    margin: 0 6px;
+}
+
+button {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #606060;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #cacaca;
+}
+
+p {
+    margin: 12px;
+    width: 750px;
+    text-align: left;
+    font-family: sans-serif;
+}
